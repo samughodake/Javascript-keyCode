@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: whitesmoke;
+}
+#main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+.container p {
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: rgb(211, 206, 206);
+  padding: 10px;
+  margin: 10px;
+}
+.big-key {
+  font-size: 170px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+}
+.span-css {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  font-style: italic;
+}
+.allspan {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+@media screen and (max-width: 900px) {
+  .container p {
+    font-size: 25px;
+  }
+}
